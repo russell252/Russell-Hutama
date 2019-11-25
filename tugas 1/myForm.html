@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            latihan form
+        </title>
+    </head>
+    <body>
+        <form action="welcome.html" method="post">
+            <fieldset>
+                <legend>
+                    data pribadi
+                </legend>
+                <p>
+                    <label for="myEmail">nama :</label>
+                    <input id="myEmail" type="email" />
+                   
+                </p>
+                <p>
+                    <label for="myNum">number: </label>
+                    <input type="myNum" type="number" />
+
+                </p>
+                
+              
+            </fieldset>
+            <fieldset>
+                <label>select Programming Language </label>
+                <input type="text" list="myDataList" />
+        <datalist id="myDataList">
+          <select name="altProgrammingLangs">
+            <option value="javascript">JavaScript Tulisan </option>
+            <option value="ruby">Ruby</option>
+            <option value="python">Python</option>
+          </select>
+        </datalist>
+            </fieldset>
+            <input id="male-radio" type="radio" name="gender" value="male" />
+        <label for="male-radio">Male Label</label>
+        <input id="female-radio" type="radio" name="gender" value="female" />
+        <label for="female-radio">Female</label>
+
+        <label for="skill">Skill:</label>
+
+        <input
+          id="writing-checkbox"
+          type="checkbox"
+          name="skill"
+          value="writing"
+        />
+        <label for="writing-checkbox">Writing</label>
+        <input
+          id="reading-checkbox"
+          type="checkbox"
+          name="skill"
+          value="reading"
+        />
+        <label for="reading-checkbox">Reading</label>
+        </fieldset>
+        <input type="submit" value="submit" />
+<p></p>
+
+
+
+
+        </form>
+    </body>
+</html>
