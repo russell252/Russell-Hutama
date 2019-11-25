@@ -1,0 +1,12 @@
+set max =4
+if " penumpang >4"
+    warning "max 4"
+
+if "penumpang 0"
+    do "20km/jam"
+if "penumpang >2"
+    do "-5km/jam" to 15 km/jam
+if "penumpang = max"
+    do " -7km/jam" to 13 
+else 
+    do"-2km/jam" to  18
